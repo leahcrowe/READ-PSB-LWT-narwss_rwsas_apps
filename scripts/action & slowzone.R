@@ -984,7 +984,12 @@ if (44 %in% egsas$ACTION_NEW) {
           "Cape Cod MA",
           "Cape Cod Bay",
           "Hyannis MA",
-          "Chatham MA"
+          "Chatham MA",
+          "Cape Hatteras NC", #Five SEUS PORTS ADDED 20241230 HJF
+          "Charleston SC",
+          "Savannah GA",
+          "Jacksonville FL",
+          "Cape Canaveral FL"
         ),
         lon = c(
           -66.9317,
@@ -999,7 +1004,12 @@ if (44 %in% egsas$ACTION_NEW) {
           -69.9778,
           -70.27,
           -70.27,
-          -69.973
+          -69.973,
+          -75.525,
+          -79.9238,
+          -81.1341,
+          -81.6206,
+          -80.5900
         ),
         lat = c(
           44.7533,
@@ -1016,7 +1026,12 @@ if (44 %in% egsas$ACTION_NEW) {
           41.8830,
           41.80,
           41.65,
-          41.686
+          41.686,
+          35.2286,
+          32.7843,
+          32.1216,
+          30.3572,
+          28.4068
         ),
         cardinal = NA
       )
