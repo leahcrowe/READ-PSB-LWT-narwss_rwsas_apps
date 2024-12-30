@@ -335,11 +335,17 @@ observeEvent(input$dmaup, {
           grepl('Providence RI', NAME) ~ 'Providence RI',
           grepl('New York NY', NAME) ~ 'New York NY',
           grepl('Atlantic City NJ', NAME) ~ 'Atlantic City NJ',
+          grepl('Ocean City MD', NAME) ~ 'Ocean City MD', #HJF 20241230
           grepl('Virginia Beach VA', NAME) ~ 'Virginia Beach VA',
           grepl("Martha's Vineyard MA", NAME) ~ "Martha's Vineyard MA",
           grepl('Nantucket MA', NAME) ~ 'Nantucket MA',
           grepl('Cape Cod MA', NAME) ~ 'Cape Cod MA',
-          grepl('Cape Cod Bay', NAME) ~ 'Cape Cod Bay'
+          grepl('Cape Cod Bay', NAME) ~ 'Cape Cod Bay',
+          grepl('Cape Hatteras NC', NAME) ~ 'Cape Hatteras NC', #Five SEUS ports added 20241230 HJF
+          grepl('Charleston SC', NAME) ~ 'Charleston SC',
+          grepl('Savannah GA', NAME) ~ 'Savannah GA',
+          grepl('Jacksonville FL', NAME) ~ 'Jacksonville FL',
+          grepl('Cape Canaveral FL', NAME) ~ 'Cape Canaveral FL'
         )
       )
     
